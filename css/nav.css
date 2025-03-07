@@ -1,14 +1,32 @@
+/*导航栏居中处理*/
+#nav-right {
+  display: flex;
+  flex-wrap: nowrap;        /* 修正拼写错误 */
+  width: 100%;              /* 确保容器占满父元素宽度 */
+  margin-left: auto;         /* 移除冗余的 justify-content */
+}
+
+/*
 #nav-right {
     flex: 1 1 auto;
     justify-content: flex-end;
     margin-left: auto;
     display: flex;
     flex-wrap: nowrap;
-}
+}*/
 
 #nav *::after {
     background-color: transparent !important;
 }
+
+/*导航栏菜单鼠标移入字体放大*/
+/*
+#nav #site-name:hover,
+#nav .menus_item:hover,
+#nav #search-button:hover{
+    font-size:28px;
+}
+*/
 
 #nav {
     font-size: 22px !important;
