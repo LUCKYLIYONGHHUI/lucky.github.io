@@ -5,6 +5,10 @@
     margin-left: auto;
     display: flex;
     flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    width: 100%;
+      
 }
 
 #nav *::after {
