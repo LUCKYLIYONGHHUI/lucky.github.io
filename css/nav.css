@@ -1,9 +1,9 @@
-#nav-right {
-    flex: 1 1 auto;
+#nav-right{
+    flex:1 1 auto;
     justify-content: flex-end;
     margin-left: auto;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap:nowrap;
 }
 
 #nav *::after {
@@ -26,9 +26,9 @@
 }
 
 
-/* #nav {
+#nav {
     font-size: 22px !important;
-} */
+}
 
 .site-page {
     padding: 5px;
