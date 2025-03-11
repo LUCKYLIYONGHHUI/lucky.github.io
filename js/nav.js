@@ -1,38 +1,31 @@
-document.addEventListener('pjax:complete', tonav);
-document.addEventListener('DOMContentLoaded', tonav);
+document.getElementById("name-container").setAttribute("style", "display:none");
 
-function tonav() {
-    document.getElementById("name-container").setAttribute("style", "display:none");
+var position = $(window).scrollTop();
 
-    var position = $(window).scrollTop();
+$(window).scroll(function () {
 
-    $(window).scroll(function () {
+  var scroll = $(window).scrollTop();
 
-        var scroll = $(window).scrollTop();
-
-        if (scroll > position) {
+  if (scroll > position) {
 
 
-            document.getElementById("name-container").setAttribute("style", "");
-            document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");
+    document.getElementById("name-container").setAttribute("style", "");
+    document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");
 
-        } else {
+  } else {
 
 
-            document.getElementsByClassName("menus_items")[1].setAttribute("style", "");
-            document.getElementById("name-container").setAttribute("style", "display:none");
-
-        }
-
-        position = scroll;
-
-    });
-
-    document.getElementById("page-name").innerText = document.title.split(" |柠檬mlemontx")[0];
-}
-
-function scrollToTop() {
     document.getElementsByClassName("menus_items")[1].setAttribute("style", "");
     document.getElementById("name-container").setAttribute("style", "display:none");
+
+  }
+
+  position = scroll;
+
+});
+function scrollToTop(){
+    document.getElementsByClassName("menus_items")[1].setAttribute("style","");
+    document.getElementById("name-container").setAttribute("style","display:none");
     btf.scrollToDest(0, 500);
 }
+document.getElementById("page-name").innerText = document.title.split(" |")[0];
