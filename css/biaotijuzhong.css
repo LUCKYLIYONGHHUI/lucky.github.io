@@ -1,0 +1,10 @@
+/* 在main.styl或custom.styl中添加以下CSS规则 */
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* 其他样式，如字体大小、颜色等 */
+  }
+  
