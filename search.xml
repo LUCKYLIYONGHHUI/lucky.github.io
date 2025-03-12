@@ -8,7 +8,7 @@
       <link href="/post/2b36786b.html"/>
       <url>/post/2b36786b.html</url>
       
-        <content type="html"><![CDATA[<p align="justify" style="text-indent:2em">当GitHub部署到vercel后，通过绑定的域名打开网页发现页面显示404，图片如下：</p><p><img src="/post/2b36786b/Snipaste_01.png"></p>]]></content>
+        <content type="html"><![CDATA[<p align="justify" style="text-indent:2em">当GitHub部署到vercel后，通过绑定的域名打开网页发现页面显示404，图片如下：</p><p><img src="/post/2b36786b/Snipaste_01.png"></p><p align="justify" style="text-indent:2em">要解决上述问题，可以按照以下步骤进行排查和修复：</p><h2 id="确认Hexo站点构建正确"><a href="#确认Hexo站点构建正确" class="headerlink" title="确认Hexo站点构建正确"></a>确认Hexo站点构建正确</h2><p align="justify" style="text-indent:2em">首先，确保你的Hexo站点能够在本地正确生成和预览。你可以通过以下命令来构建你的Hexo站点：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo server</span><br><span class="line"># hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p align="justify" style="text-indent:2em">在浏览器中访问 http://localhost:4000 来查看你的站点是否正确显示。</p><h2 id="检查Vercel配置路径"><a href="#检查Vercel配置路径" class="headerlink" title="检查Vercel配置路径"></a>检查Vercel配置路径</h2><p align="justify" style="text-indent:2em">确保你在 Vercel 中设置的部署路径与你的 GitHub 仓库中的文件结构相匹配。</p><h2 id="清除缓存并重新部署"><a href="#清除缓存并重新部署" class="headerlink" title="清除缓存并重新部署"></a>清除缓存并重新部署</h2><p align="justify" style="text-indent:2em">有时候，清除Vercel的缓存可以解决一些看似复杂的问题。你可以在Vercel Dashboard中手动触发重新部署，或者使用Vercel CLI：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vercel --prod</span><br></pre></td></tr></table></figure><h2 id="查看Vercel日志和错误信息"><a href="#查看Vercel日志和错误信息" class="headerlink" title="查看Vercel日志和错误信息"></a>查看Vercel日志和错误信息</h2><p align="justify" style="text-indent:2em">在Vercel Dashboard中查看部署日志，可能会有一些有用的错误信息帮助你诊断问题。搜索与404相关的错误信息，看看是否有特定的文件或路径没有被正确处理。</p><p align="justify" style="text-indent:2em">按照这些步骤操作后，通常可以解决大部分因配置不当导致的404错误。如果问题仍然存在，可能需要检查更具体的Hexo配置或进一步的Vercel设置。</p>]]></content>
       
       
       <categories>
@@ -1717,17 +1717,6 @@
     
     
     <entry>
-      <title>LUCKY</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<div align="center"><h2>-博主简介-</h2></div><p align="justify" style="text-indent:2em">LUCKY，一枚00后的博主，乐于分享技术与快乐的博主。本人同时也是一个计算机专业的探索者，热爱研究技术问题。十分享受解决问题的过程。</p><div align="center"><h2>-联系博主-</h2></div><ul><li>微信：LYHLUCKY20</li><li>QQ邮箱：<a href="mailto:&#50;&#x39;&#48;&#x30;&#49;&#x38;&#x39;&#x31;&#x34;&#54;&#64;&#113;&#113;&#46;&#x63;&#111;&#109;">2900189146@qq.com</a></li><li>Gmail邮箱：<a href="mailto:&#108;&#x79;&#104;&#x32;&#x39;&#48;&#48;&#49;&#56;&#57;&#x31;&#x34;&#x36;&#x40;&#x67;&#x6d;&#x61;&#x69;&#x6c;&#46;&#x63;&#x6f;&#109;">lyh2900189146@gmail.com</a></li><li>个人博客：<a href="https://www.luckylyh.top/">https://www.luckylyh.top</a></li><li>GitHub：<a href="https://lucky.github.io/">https://lucky.github.io</a></li></ul>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>英语</title>
       <link href="/English/index.html"/>
       <url>/English/index.html</url>
@@ -1742,6 +1731,28 @@
       <title>问题解答区</title>
       <link href="/arch/index.html"/>
       <url>/arch/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>LUCKY</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<div align="center"><h2>-博主简介-</h2></div><p align="justify" style="text-indent:2em">LUCKY，一枚00后的博主，乐于分享技术与快乐的博主。本人同时也是一个计算机专业的探索者，热爱研究技术问题。十分享受解决问题的过程。</p><div align="center"><h2>-联系博主-</h2></div><ul><li>微信：LYHLUCKY20</li><li>QQ邮箱：<a href="mailto:&#x32;&#57;&#48;&#x30;&#x31;&#x38;&#x39;&#49;&#x34;&#54;&#x40;&#x71;&#x71;&#46;&#x63;&#x6f;&#109;">2900189146@qq.com</a></li><li>Gmail邮箱：<a href="mailto:&#108;&#x79;&#x68;&#x32;&#x39;&#48;&#x30;&#49;&#56;&#57;&#49;&#52;&#x36;&#x40;&#x67;&#109;&#x61;&#105;&#108;&#46;&#x63;&#x6f;&#109;">lyh2900189146@gmail.com</a></li><li>个人博客：<a href="https://www.luckylyh.top/">https://www.luckylyh.top</a></li><li>GitHub：<a href="https://lucky.github.io/">https://lucky.github.io</a></li></ul>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>源码资料库</title>
+      <link href="/categor/index.html"/>
+      <url>/categor/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1772,33 +1783,11 @@
     
     
     <entry>
-      <title>源码资料库</title>
-      <link href="/categor/index.html"/>
-      <url>/categor/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>计算机</title>
       <link href="/computer/index.html"/>
       <url>/computer/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/custom.css"/>
-      <url>/css/custom.css</url>
-      
-        <content type="html"><![CDATA[/* 文章页H1-H6图标样式效果 */h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {    -webkit-animation: ccc 1.6s linear infinite ;    animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}#content-inner.layout h1:hover, #content-inner.layout h2:hover, #content-inner.layout h3:hover, #content-inner.layout h4:hover, #content-inner.layout h5:hover, #content-inner.layout h6:hover {    color: #49b1f5 ;}#content-inner.layout h1:hover::after, #content-inner.layout h2:hover::after, #content-inner.layout h3:hover::after, #content-inner.layout h4:hover::after, #content-inner.layout h5:hover::after, #content-inner.layout h6:hover::after {    color: #49b1f5 ;    -webkit-animation: ccc 3.2s linear infinite ;    animation: ccc 3.2s linear infinite ;}#content-inner.layout h1::after {    color: #ef50a8 ;    margin-left: -1.55rem;    font-size: 1.3rem;    margin-top: -0.23rem;}#content-inner.layout h2::after {    color: #fb7061 ;    margin-left: -1.35rem;    font-size: 1.1rem;    margin-top: -0.12rem;}#content-inner.layout h3::after {    color: #ffbf00 ;    margin-left: -1.22rem;    font-size: 0.95rem;    margin-top: -0.09rem;}#content-inner.layout h4::after {    color: #a9e000 ;    margin-left: -1.05rem;    font-size: 0.8rem;    margin-top: -0.09rem;}#content-inner.layout h5::after {    color: #57c850 ;    margin-left: -0.9rem;    font-size: 0.7rem;    margin-top: 0.0rem;}#content-inner.layout h6::after {    color: #5ec1e0 ;    margin-left: -0.9rem;    font-size: 0.66rem;    margin-top: 0.0rem;}/* 页面设置icon转动速度调整 */#rightside_config i.fas.fa-cog.fa-spin {    animation: fa-spin 5s linear infinite ;}]]></content>
       
     </entry>
     
@@ -1828,10 +1817,10 @@
     
     <entry>
       <title></title>
-      <link href="/css/iconfont.css"/>
-      <url>/css/iconfont.css</url>
+      <link href="/css/icon.css"/>
+      <url>/css/icon.css</url>
       
-        <content type="html"><![CDATA[@font-face {  font-family: "iconfont"; /* Project id 3963606 */  src: url('//at.alicdn.com/t/c/font_3963606_t1a6qzq3s9.woff2?t=1680617567168') format('woff2'),       url('//at.alicdn.com/t/c/font_3963606_t1a6qzq3s9.woff?t=1680617567168') format('woff'),       url('//at.alicdn.com/t/c/font_3963606_t1a6qzq3s9.ttf?t=1680617567168') format('truetype');}.iconfont {  font-family: "iconfont" !important;  font-size: 22px;  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}.icon-zhihu:before {  content: "\e675";}]]></content>
+        <content type="html"><![CDATA[@font-face {    font-family: "iconfont"; /* Project id 3963606 */    src: url('//at.alicdn.com/t/c/font_3963606_euanu18tb3u.woff2?t=1680620361256') format('woff2'),         url('//at.alicdn.com/t/c/font_3963606_euanu18tb3u.woff?t=1680620361256') format('woff'),         url('//at.alicdn.com/t/c/font_3963606_euanu18tb3u.ttf?t=1680620361256') format('truetype');  }    .iconfont {    font-family: "iconfont" !important;    font-size: 22px;    font-style: normal;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  }    .icon-shouye:before {    content: "\e7cd";  }    .icon-gongneng:before {    content: "\e7ce";  }    .icon-wode:before {    content: "\e7d0";  }    .icon-xitongjicheng:before {    content: "\e7df";  }    .icon-xinwenzixun:before {    content: "\e7e1";  }    .icon-xiangmu:before {    content: "\e7f7";  }  ]]></content>
       
     </entry>
     
@@ -1839,10 +1828,21 @@
     
     <entry>
       <title></title>
-      <link href="/css/icon.css"/>
-      <url>/css/icon.css</url>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[@font-face {    font-family: "iconfont"; /* Project id 3963606 */    src: url('//at.alicdn.com/t/c/font_3963606_euanu18tb3u.woff2?t=1680620361256') format('woff2'),         url('//at.alicdn.com/t/c/font_3963606_euanu18tb3u.woff?t=1680620361256') format('woff'),         url('//at.alicdn.com/t/c/font_3963606_euanu18tb3u.ttf?t=1680620361256') format('truetype');  }    .iconfont {    font-family: "iconfont" !important;    font-size: 22px;    font-style: normal;    -webkit-font-smoothing: antialiased;    -moz-osx-font-smoothing: grayscale;  }    .icon-shouye:before {    content: "\e7cd";  }    .icon-gongneng:before {    content: "\e7ce";  }    .icon-wode:before {    content: "\e7d0";  }    .icon-xitongjicheng:before {    content: "\e7df";  }    .icon-xinwenzixun:before {    content: "\e7e1";  }    .icon-xiangmu:before {    content: "\e7f7";  }  ]]></content>
+        <content type="html"><![CDATA[/* 文章页H1-H6图标样式效果 */h1::after, h2::after, h3::after, h4::after, h5::after, h6::after {    -webkit-animation: ccc 1.6s linear infinite ;    animation: ccc 1.6s linear infinite ;}@-webkit-keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}@keyframes ccc {    0% {        -webkit-transform: rotate(0deg);        transform: rotate(0deg)    }    to {        -webkit-transform: rotate(-1turn);        transform: rotate(-1turn)    }}#content-inner.layout h1:hover, #content-inner.layout h2:hover, #content-inner.layout h3:hover, #content-inner.layout h4:hover, #content-inner.layout h5:hover, #content-inner.layout h6:hover {    color: #49b1f5 ;}#content-inner.layout h1:hover::after, #content-inner.layout h2:hover::after, #content-inner.layout h3:hover::after, #content-inner.layout h4:hover::after, #content-inner.layout h5:hover::after, #content-inner.layout h6:hover::after {    color: #49b1f5 ;    -webkit-animation: ccc 3.2s linear infinite ;    animation: ccc 3.2s linear infinite ;}#content-inner.layout h1::after {    color: #ef50a8 ;    margin-left: -1.55rem;    font-size: 1.3rem;    margin-top: -0.23rem;}#content-inner.layout h2::after {    color: #fb7061 ;    margin-left: -1.35rem;    font-size: 1.1rem;    margin-top: -0.12rem;}#content-inner.layout h3::after {    color: #ffbf00 ;    margin-left: -1.22rem;    font-size: 0.95rem;    margin-top: -0.09rem;}#content-inner.layout h4::after {    color: #a9e000 ;    margin-left: -1.05rem;    font-size: 0.8rem;    margin-top: -0.09rem;}#content-inner.layout h5::after {    color: #57c850 ;    margin-left: -0.9rem;    font-size: 0.7rem;    margin-top: 0.0rem;}#content-inner.layout h6::after {    color: #5ec1e0 ;    margin-left: -0.9rem;    font-size: 0.66rem;    margin-top: 0.0rem;}/* 页面设置icon转动速度调整 */#rightside_config i.fas.fa-cog.fa-spin {    animation: fa-spin 5s linear infinite ;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/css/iconfont.css"/>
+      <url>/css/iconfont.css</url>
+      
+        <content type="html"><![CDATA[@font-face {  font-family: "iconfont"; /* Project id 3963606 */  src: url('//at.alicdn.com/t/c/font_3963606_t1a6qzq3s9.woff2?t=1680617567168') format('woff2'),       url('//at.alicdn.com/t/c/font_3963606_t1a6qzq3s9.woff?t=1680617567168') format('woff'),       url('//at.alicdn.com/t/c/font_3963606_t1a6qzq3s9.ttf?t=1680617567168') format('truetype');}.iconfont {  font-family: "iconfont" !important;  font-size: 22px;  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}.icon-zhihu:before {  content: "\e675";}]]></content>
       
     </entry>
     
@@ -1872,17 +1872,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/transparent.css"/>
-      <url>/css/transparent.css</url>
-      
-        <content type="html"><![CDATA[/* 主页所有文章页面背景 */#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{    /* 以下代表透明度为0.5 */    background: rgba(255, 255, 255, .98);}/*侧边栏页面*/#aside-content>.card-widget  {    background: rgba(255,255,255,.98);}#aside-content>.sticky_layout>.card-widget{    background: rgba(255,255,255,.98);}/*文章页面*/.layout>#post{    background: rgba(255,255,255,.98);}/*分类页面*/.layout>#page{        background: rgba(255,255,255,.98);}/*时间轴页面*/.layout>#archive{    background: rgba(255,255,255,.98);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/touming.css"/>
       <url>/css/touming.css</url>
       
@@ -1904,20 +1893,20 @@
     
     
     <entry>
-      <title>高数</title>
-      <link href="/gaoshu/index.html"/>
-      <url>/gaoshu/index.html</url>
+      <title></title>
+      <link href="/css/transparent.css"/>
+      <url>/css/transparent.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[/* 主页所有文章页面背景 */#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{    /* 以下代表透明度为0.5 */    background: rgba(255, 255, 255, .98);}/*侧边栏页面*/#aside-content>.card-widget  {    background: rgba(255,255,255,.98);}#aside-content>.sticky_layout>.card-widget{    background: rgba(255,255,255,.98);}/*文章页面*/.layout>#post{    background: rgba(255,255,255,.98);}/*分类页面*/.layout>#page{        background: rgba(255,255,255,.98);}/*时间轴页面*/.layout>#archive{    background: rgba(255,255,255,.98);}]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>高数</title>
+      <link href="/gaoshu/index.html"/>
+      <url>/gaoshu/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1938,17 +1927,6 @@
     
     <entry>
       <title></title>
-      <link href="/js/nav.js"/>
-      <url>/js/nav.js</url>
-      
-        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function () {  var scroll = $(window).scrollTop();  if (scroll > position) {    document.getElementById("name-container").setAttribute("style", "");    document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");  } else {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");  }  position = scroll;});function scrollToTop(){    document.getElementsByClassName("menus_items")[1].setAttribute("style","");    document.getElementById("name-container").setAttribute("style","display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/js/universe.js"/>
       <url>/js/universe.js</url>
       
@@ -1959,9 +1937,20 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title></title>
+      <link href="/js/nav.js"/>
+      <url>/js/nav.js</url>
+      
+        <content type="html"><![CDATA[document.getElementById("name-container").setAttribute("style", "display:none");var position = $(window).scrollTop();$(window).scroll(function () {  var scroll = $(window).scrollTop();  if (scroll > position) {    document.getElementById("name-container").setAttribute("style", "");    document.getElementsByClassName("menus_items")[1].setAttribute("style", "display:none!important");  } else {    document.getElementsByClassName("menus_items")[1].setAttribute("style", "");    document.getElementById("name-container").setAttribute("style", "display:none");  }  position = scroll;});function scrollToTop(){    document.getElementsByClassName("menus_items")[1].setAttribute("style","");    document.getElementById("name-container").setAttribute("style","display:none");    btf.scrollToDest(0, 500);}document.getElementById("page-name").innerText = document.title.split(" |")[0];]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1973,6 +1962,17 @@
       <title>论文</title>
       <link href="/lunwen/index.html"/>
       <url>/lunwen/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
