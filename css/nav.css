@@ -10,7 +10,7 @@
     background-color: transparent !important;
 }
 
-.nav-fixed #nav{
+/* .nav-fixed #nav{
     transform: translateY(58px)!important;
     -webkit-transform: translateY(58px)!important;
     -moz-transform: translateY(58px)!important;
@@ -23,8 +23,7 @@
     -moz-transition: none!important;
     -ms-transition: none!important;
     -o-transition: none!important;
-}
-
+} */
 
 #nav {
     font-size: 22px !important;
