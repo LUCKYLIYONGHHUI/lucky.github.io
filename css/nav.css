@@ -6,6 +6,12 @@
     flex-wrap: nowrap;
 }
 
+nav#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #nav *::after {
     background-color: transparent !important;
 }
