@@ -46,15 +46,6 @@ nav#nav {
     font-size: 0.78em;
 }
 
-@media (max-width: 768px) {
-    #search-button {
-      display: none; /* 默认隐藏搜索按钮 */
-    }
-    #toggle-menu.active + #search-button {
-      display: block; /* 在展开菜单时显示搜索 */
-    }
-}
-
 .site-page:hover {
     background-color: var(--mlemontx-theme);
     box-shadow: 0 0 3px var(--mlemontx-theme) !important;
@@ -163,9 +154,15 @@ nav#nav {
     opacity: 1;
 }
 
+/* @media (max-width: 900px) {
+    #search-button {
+        display: block !important;
+    }
+} */
+
 @media screen and (max-width: 900px) {
     #page-name, #menus {
-        display: none !important;
+        display: none !important; /* 默认强制显示 */
     }
 }
 
