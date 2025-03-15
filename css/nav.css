@@ -30,12 +30,23 @@
 }
 
 .site-page {
+    display: flex;
+    align-items: center;
     padding: 5px;
     margin: 3px;
     padding-left: 10px;
     padding-right: 10px;
     white-space: nowrap;
     font-size: 0.78em;
+}
+
+@media (max-width: 768px) {
+    #search-button {
+      display: none; /* 默认隐藏搜索按钮 */
+    }
+    #toggle-menu.active + #search-button {
+      display: block; /* 在展开菜单时显示搜索 */
+    }
 }
 
 .site-page:hover {
