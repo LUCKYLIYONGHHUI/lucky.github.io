@@ -1,44 +1,175 @@
-/* 桌面端布局 */
-@media (min-width: 1024px) {
-    nav#nav {
-      display: flex;
-      justify-content: space-between; /* 主轴对齐方式为间距平均分布 */
-      align-items: center;
-      padding: 1rem 0;
-    }
-  
-    /* 菜单容器设置为弹性容器并居中 */
-    #menus {
-      display: flex;
-      gap: 2rem; /* 菜单项之间的间距 */
-      flex-grow: 1; /* 让菜单占据剩余空间 */
-      justify-content: flex-start; /* 菜单项默认左对齐 */
-    }
-  
-    /* 搜索按钮强制靠右 */
-    #search-button {
-      order: -1; /* 强制排在最前面（视觉上最后） */
-    }
+#nav-right{
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-  /* 移动端布局 */
-@media (max-width: 768px) {
-    nav#nav {
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-    }
-  
-    #search-button {
-      display: block !important; /* 默认显示搜索 */
-      margin-top: 1rem;
-    }
-  
-    #toggle-menu.active ~ #search-button {
-      display: none; /* 点击汉堡菜单后隐藏搜索 */
-    }
+#nav *::after {
+    background-color: transparent !important;
+}
+
+.nav-fixed #nav{
+    transform: translateY(58px)!important;
+    -webkit-transform: translateY(58px)!important;
+    -moz-transform: translateY(58px)!important;
+    -ms-transform: translateY(58px)!important;
+    -o-transform: translateY(58px)!important;
+}
+#nav{
+    transition: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
+}
+
+
+#nav {
+    font-size: 23px !important;
+}
+
+.site-page {
+    padding: 5px;
+    margin: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 0.78em;
+}
+
+.site-page:hover {
+    background-color: var(--mlemontx-theme);
+    box-shadow: 0 0 3px var(--mlemontx-theme) !important;
+    border-radius: 7px;
+}
+
+.site-page.child:hover {
+    background-color: var(--mlemontx-theme) !important;
+    box-shadow: 0 0 3px var(--mlemontx-theme) !important;
+    border-radius: 4px;
+}
+
+.menus_item_child li:not(#sidebar-menus li) {
+    float: left;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+}
+
+.menus_item_child:not(#sidebar-menus ul) {
+    left: 50%;
+    translate: -50%;
+}
+
+#blog-info a {
+    padding: 8px
+}
+
+.site-name::before {
+    opacity: 0;
+    background-color: var(--mlemontx-theme) !important;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    position: absolute;
+    top: 0 !important;
+    right: 0 !important;
+    width: 100%;
+    height: 100%;
+    content: "\f015";
+    box-shadow: 0 0 5px var(--mlemontx-theme);
+    font-family: "Font Awesome 6 Free";
+    text-align: center;
+    color: white;
+    line-height: 34px;
+    font-size: 18px;
+}
+
+.site-name:hover::before {
+    opacity: 1;
+    scale: 1.03;
+}
+
+.site-name {
+    position: relative;
+    font-size: 24px;
+}
+
+.nav-fixed #nav {
+    transform: translateY(58px) !important;
+    -webkit-transform: translateY(58px) !important;
+    -moz-transform: translateY(58px) !important;
+    -ms-transform: translateY(58px) !important;
+    -o-transform: translateY(58px) !important;
 }
 
 #nav {
-    font-size: 24px !important; /* 设置导航栏字体大小 */
+    transition: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+
+#page-name::before {
+    font-size: 18px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    color: white !important;
+    top: 0;
+    left: 0;
+    content: '回到顶部';
+    background-color: var(--mlemontx-theme);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    opacity: 0;
+    box-shadow: 0 0 3px var(--mlemontx-theme);
+    line-height: 45px;
+}
+
+#page-name:hover:before {
+    opacity: 1;
+}
+
+@media screen and (max-width: 900px) {
+    #page-name, #menus {
+        display: none !important;
+    }
+}
+
+#name-container {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+#name-container:hover {
+    scale: 1.03;
+}
+
+#page-name {
+    position: relative;
+    padding: 10px 30px;
+}
+
+#nav {
+    padding: 0 20px;
 }
