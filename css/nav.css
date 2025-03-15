@@ -1,9 +1,15 @@
-#nav-right{
+/* #nav-right{
     flex: 1 1 auto;
     justify-content: flex-end;
     margin-left: auto;
     display: flex;
     flex-wrap: nowrap;
+} */
+
+nav#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #nav *::after {
