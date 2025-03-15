@@ -22,11 +22,6 @@
       flex-grow: 1; /* 让菜单占据剩余空间 */
       justify-content: flex-start; /* 菜单项默认左对齐 */
     }
-  
-    /* 搜索按钮强制靠右 */
-    #search-button {
-      order: -1; /* 强制排在最前面（视觉上最后） */
-    }
 }
 
 /* nav#nav {
