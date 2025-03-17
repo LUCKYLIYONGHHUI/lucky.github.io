@@ -1,0 +1,39 @@
+#nav {
+    font-size: 23px !important; /* 导航栏字体大小 */
+}
+/* 桌面端布局 */
+@media (min-width: 1024px) {
+    nav#nav {
+      display: flex;
+      justify-content: space-between; /* 主轴对齐方式为间距平均分布 */
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+  
+    /* 菜单容器设置为弹性容器并居中 */
+    #menus {
+      display: flex;
+      gap: 4rem; /* 菜单项之间的间距 */
+      flex-grow: 1; /* 让菜单占据剩余空间 */
+      justify-content: space-between; /* 菜单项水平对齐 */
+    }
+  
+    /* 搜索按钮强制靠右 */
+    #search-button {
+      order: 0; 
+    }
+}
+/* 二级导航栏水平展示 */
+.menus_item_child li:not(#sidebar-menus li) {
+    float: left;
+    border-radius: 6px !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    -ms-border-radius: 6px !important;
+    -o-border-radius: 6px !important;
+}
+
+.menus_item_child:not(#sidebar-menus ul) {
+    left: 50%;
+    translate: -50%;
+}
