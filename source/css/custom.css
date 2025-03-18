@@ -40,13 +40,13 @@ h6::before {
 }
 #content-inner.layout h2::before {
   color: #fb7061;
-  margin-left: -1.35rem;
+  margin-left: 0rem;
   font-size: 1.1rem;
   margin-top: -0.12rem;
 }
 #content-inner.layout h3::before {
   color: #ffbf00;
-  margin-left: -1.22rem;
+  margin-left: 0rem;
   font-size: 0.95rem;
   margin-top: -0.09rem;
 }
