@@ -19,9 +19,9 @@ top_img: /img/wallhaven-1p11l9.png
 
 ---
 
-## 电商设计
+<div align = "center"><h1>电商设计</h1></div>
 
-### BANNER
+<div align = "center"><h3>BANNER</h3></div>
 
 ![](./index/banner_02.png)
 
@@ -29,59 +29,59 @@ top_img: /img/wallhaven-1p11l9.png
 
 ---
 
-### 活动页
+<div align = "center"><h3>活动页</h3></div>
 
 ---
 
-### 专题页
+<div align = "center"><h3>专题页</h3></div>
 
 ---
 
-### 活动KV
+<div align = "center"><h3>活动KV</h3></div>
 
 ---
 
-### 直通车
+<div align = "center"><h3>直通车</h3></div>
 
 ---
 
-### 产品精修
+<div align = "center"><h3>产品精修</h3></div>
 
 ---
 
-### 人像精修
+<div align = "center"><h3>人像精修</h3></div>
 
 ---
 
-## 平面设计
+<div align = "center"><h1>平面设计</h1></div>
 
-### LOGO
-
----
-
-### 名片
+<div align = "center"><h3>LOGO</h3></div>
 
 ---
 
-### 单页
+<div align = "center"><h3>名片</h3></div>
 
 ---
 
-### 三折页
+<div align = "center"><h3>单页</h3></div>
 
 ---
 
-### 海报
+<div align = "center"><h3>三折页</h3></div>
 
 ---
 
-### 易拉宝
+<div align = "center"><h3>海报</h3></div>
 
 ---
 
-## C4D
+<div align = "center"><h3>易拉宝</h3></div>
 
-### 产品渲染
+---
+
+<div align = "center"><h1>C4D</h1></div>
+
+<div align = "center"><h3>产品渲染</h3></div>
 
 ---
 
