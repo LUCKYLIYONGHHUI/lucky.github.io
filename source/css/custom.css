@@ -8,7 +8,7 @@ h5::before,
 h6::before {
   -webkit-animation: ccc 4s linear infinite;
   animation: ccc 4s linear infinite;
-  padding-left: -10px;
+  /* padding-left: -10px; */
 }
 /* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
 @-webkit-keyframes ccc {
