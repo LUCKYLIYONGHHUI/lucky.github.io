@@ -23,6 +23,8 @@ top_img: /img/wallhaven-1p11l9.png
 
 ### BANNER
 
+![](/source/img/banner/Snipaste_01.png)
+
 ---
 
 ### 活动页
