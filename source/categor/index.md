@@ -53,6 +53,8 @@ top_img: /img/wallhaven-1p11l9.png
 
 ![](./index/活动KV_01.png)
 
+![](./index/活动KV_02.png)
+
 ---
 
 <div align = "center"><h3>直通车</h3></div>
