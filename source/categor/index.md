@@ -43,13 +43,15 @@ top_img: /img/wallhaven-1p11l9.png
 
 ![](./index/详情页_02.png)
 
-![](./index/详情页_03.png)
-
 ![](./index/详情页_04.png)
+
+![](./index/详情页_03.png)
 
 ---
 
 <div align = "center"><h3>活动KV</h3></div>
+
+![](./index/活动KV_01.png)
 
 ---
 
