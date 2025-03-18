@@ -23,7 +23,7 @@ top_img: /img/wallhaven-1p11l9.png
 
 ### BANNER
 
-![](/img/banner/Snipaste_01.png)
+![](./index/banner_01.png)
 
 ---
 
