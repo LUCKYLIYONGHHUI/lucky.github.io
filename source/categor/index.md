@@ -11,7 +11,7 @@ top_img: /img/wallhaven-1p11l9.png
 |:--:|:--:|:--:|
 |BANNER|LOGO|产品渲染|
 |活动页|名片|-|
-|专题页|单页|-|
+|日常页|单页|-|
 |活动KV|三折页|-|
 |直通车|海报|-|
 |产品精修|易拉宝|-|
@@ -37,7 +37,15 @@ top_img: /img/wallhaven-1p11l9.png
 
 ---
 
-<div align = "center"><h3>专题页</h3></div>
+<div align = "center"><h3>日常页</h3></div>
+
+![](./index/详情页_01.png)
+
+![](./index/详情页_02.png)
+
+![](./index/详情页_03.png)
+
+![](./index/详情页_04.png)
 
 ---
 
