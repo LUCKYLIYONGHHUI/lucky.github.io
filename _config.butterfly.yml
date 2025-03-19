@@ -91,10 +91,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/unsplash.jpg
+favicon: /img/wallhaven-6d9o67.jpg
 
 avatar:
-  img: /img/unsplash.jpg
+  img: /img/wallhaven-6d9o67.jpg
   effect: false
 
 # Disable all banner images
