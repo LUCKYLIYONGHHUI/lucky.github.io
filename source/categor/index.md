@@ -67,35 +67,65 @@ top_img: /img/wallhaven-1p11l9.png
 
 <div align = "center"><h3>产品精修</h3></div>
 
+![](./index/产品精修_01.png)
+
+![](./index/产品精修_02.png)
+
 ---
 
 <div align = "center"><h3>人像精修</h3></div>
+
+![](./index/人像精修_01.png)
+
+![](./index/人像精修_02.png)
 
 ---
 
 <div align = "center"><h1>平面设计</h1></div>
 
-<div align = "center"><h3>LOGO</h3></div>
+<div align = "center"><h3>海报</h3></div>
+
+![](./index/海报_01.png)
+
+![](./index/海报_02.png)
 
 ---
 
 <div align = "center"><h3>名片</h3></div>
 
+![](./index/名片_01.png)
+
 ---
 
 <div align = "center"><h3>单页</h3></div>
+
+![](./index/单页_01.png)
+
+![](./index/单页_02.png)
 
 ---
 
 <div align = "center"><h3>三折页</h3></div>
 
+![](./index/三折页_01.png)
+
+![](./index/三折页_02.png)
+
 ---
 
-<div align = "center"><h3>海报</h3></div>
+<div align = "center"><h3>LOGO</h3></div>
+
+![](./index/LOGO_01.png)
+
+![](./index/LOGO_02.png)
 
 ---
 
 <div align = "center"><h3>易拉宝</h3></div>
+
+![](./index/易拉宝_01.png)
+
+![](./index/易拉宝_02.png)
 
 ---
 
