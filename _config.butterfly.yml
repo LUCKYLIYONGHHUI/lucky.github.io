@@ -91,10 +91,10 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.jpg
+favicon: /img/unsplash.jpg
 
 avatar:
-  img: /img/favicon.jpg
+  img: /img/unsplash.jpg
   effect: false
 
 # Disable all banner images
