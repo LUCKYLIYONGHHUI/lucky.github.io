@@ -2,11 +2,11 @@
 title: Matplotlib基础绘图功能
 tags:
   - 机器学习
-  - matplotlib
+  - Matplotlib
 categories: 机器学习
 keywords:
   - 机器学习
-  - matplotlib
+  - Matplotlib
 cover: /img/jiqirenyemian.png
 abbrlink: f7e23b64
 date: 2025-03-13 19:59:13

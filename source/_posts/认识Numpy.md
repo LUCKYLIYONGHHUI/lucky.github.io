@@ -2,11 +2,11 @@
 title: 认识Numpy
 tags:
   - 机器学习
-  - matplotlib
+  - Numpy
 categories: 机器学习
 keywords:
   - 机器学习
-  - matplotlib
+  - Numpy
 cover: /img/jiqirenyemian.png
 abbrlink: 2c5c2e81
 date: 2025-03-20 12:26:23
@@ -14,11 +14,11 @@ date: 2025-03-20 12:26:23
 
 ## Numpy介绍
 
-<p align = "justify" style = "text-indent:2em">Numpy（Numerical Python）是一个开源的Python科学计算库，<b>用于快速处理任意维度的数组</b>。</p>
+Numpy（Numerical Python）是一个开源的Python科学计算库，<b>用于快速处理任意维度的数组</b>。
 
-<p align = "justify" style = "text-indent:2em">Numpy<b>支持常见的数组和矩阵操作</b>。对于同样的数值计算任务，使用Numpy比直接使用Python要简洁的多。</p>
+Numpy<b>支持常见的数组和矩阵操作</b>。对于同样的数值计算任务，使用Numpy比直接使用Python要简洁的多。
 
-<p align = "justify" style = "text-indent:2em">Numpy<b>使用ndarray对象来处理多维数组</b>，该对象是一个快速而灵活的大数据容器。</p>
+Numpy<b>使用ndarray对象来处理多维数组</b>，该对象是一个快速而灵活的大数据容器。
 
 ---
 

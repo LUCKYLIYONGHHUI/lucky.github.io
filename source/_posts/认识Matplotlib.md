@@ -2,9 +2,9 @@
 title: 认识Matplotlib
 abbrlink: d55b2e97
 date: 2025-03-12 23:23:36
-tags: [机器学习 ,matplotlib]
+tags: [机器学习 ,Matplotlib]
 categories: 机器学习
-keywords: [机器学习 ,matplotlib]
+keywords: [机器学习 ,Matplotlib]
 cover: /img/jiqirenyemian.png
 ---
 

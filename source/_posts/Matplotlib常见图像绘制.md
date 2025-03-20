@@ -2,11 +2,11 @@
 title: Matplotlib常见图像绘制
 tags:
   - 机器学习
-  - matplotlib
+  - Matplotlib
 categories: 机器学习
 keywords:
   - 机器学习
-  - matplotlib
+  - Matplotlib
 cover: /img/jiqirenyemian.png
 abbrlink: b6a17c2b
 date: 2025-03-18 23:08:34
