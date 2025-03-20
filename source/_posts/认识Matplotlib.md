@@ -17,7 +17,7 @@ cover: /img/jiqirenyemian.png
 
 ## 为什么学习Matplotlib
 
-<p align = "justify" style = "text-indent:2em">可视化是在整个数据挖掘的关键辅助工具，可以清晰的理解数据，从而调整我们的分析方法。</p>
+可视化是在整个数据挖掘的关键辅助工具，可以清晰的理解数据，从而调整我们的分析方法。
 
 - 能将数据进行可视化,更直观的呈现
 - 使数据更加客观、更具说服力
@@ -28,7 +28,7 @@ cover: /img/jiqirenyemian.png
 
 ### matplotlib.pyplot模块
 
-<p align = "justify" style = "text-indent:2em">matplotlib.pytplot包含了一系列类似于matlab的画图函数。</p>
+matplotlib.pytplot包含了一系列类似于matlab的画图函数。
 
 ```matplotlib
 import matplotlib.pyplot as plt
@@ -47,7 +47,7 @@ plt.figure(figsize=(), dpi=)
 
 - 2、绘制图像 --- plt.plot()
 
-<p align = "justify" style = "text-indent:2em">以折线图为例</p>
+以折线图为例
 
 - 3、显示图像 --- plt.show()
 
@@ -66,6 +66,6 @@ plt.plot([1, 2, 3, 4, 5, 6, 7], [10, 15, 13, 18, 16, 20, 10])
 plt.show()
 ```
 
-<p align = "justify" style = "text-indent:2em">如下：</p>
+如下：
 
 ![](./认识matplotlib/Snipaste_01.png)
