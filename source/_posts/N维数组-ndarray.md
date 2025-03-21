@@ -294,15 +294,19 @@ c.正态分布特点
 
 是在概率论和统计方差衡量一组数据时离散程度的度量。
 
-$$
-\sigma^2 = \frac{(x_1 - M)^2 + (x_2 - M)^2 + (x_3 - M)^2 + \ldots + (x_n - M)^2}{n}
-$$
+```Markdown
+$$\sigma^2 = \frac{(x_1 - M)^2 + (x_2 - M)^2 + (x_3 - M)^2 + \ldots + (x_n - M)^2}{n}$$
+```
+
+![](./N维数组-ndarray/Snipaste_07.png)
 
 其中M为平均值，n为数据总个数，σ为标准差，σ^2可以理解一个整体为方差。
 
-$$
-\sigma = \sqrt{ \frac{1}{N} \sum_{\substack{i=1 \\ \\}}^{N} (x_i - \mu)^2 }
-$$
+```Markdown
+$$\sigma = \sqrt{ \frac{1}{N} \sum_{\substack{i=1 \\ \\}}^{N} (x_i - \mu)^2 }$$
+```
+
+![](./N维数组-ndarray/Snipaste_08.png)
 
 - 标准差与方差的意义
 
