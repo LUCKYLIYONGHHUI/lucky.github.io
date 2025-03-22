@@ -19,7 +19,7 @@ cover: /img/jiqirenyemian.png
 
 可视化是在整个数据挖掘的关键辅助工具，可以清晰的理解数据，从而调整我们的分析方法。
 
-- 能将数据进行可视化,更直观的呈现
+- 能将数据进行可视化，更直观的呈现
 - 使数据更加客观、更具说服力
 
 ---
@@ -40,8 +40,8 @@ import matplotlib.pyplot as plt
 
 ```matplotlib
 plt.figure(figsize=(), dpi=)
-    figsize:指定图的长宽
-    dpi:图像的清晰度
+    figsize: 指定图的长宽
+    dpi: 图像的清晰度
     返回fig对象
 ```
 
@@ -57,7 +57,7 @@ plt.figure(figsize=(), dpi=)
 import matplotlib.pyplot as plt
 
 # 1.创建画布
-plt.figure(figsize=(20,8), dpi=100)
+plt.figure(figsize=(20, 8), dpi=100)
 
 # 2.绘制图像
 plt.plot([1, 2, 3, 4, 5, 6, 7], [10, 15, 13, 18, 16, 20, 10])

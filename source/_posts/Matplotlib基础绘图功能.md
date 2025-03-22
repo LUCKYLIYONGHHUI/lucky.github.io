@@ -30,9 +30,9 @@ import random
 
 # 画出温度变化图
 
-# 0、准备x，y坐标的数据
+# 0、准备x,y坐标的数据
 x = range(60)
-y_hengyang =[random.uniform(15,18) for i in x]
+y_hengyang = [random.uniform(15, 18) for i in x]
 
 # 1、创建画布
 plt.figure(figsize=(20, 8), dpi=80)
@@ -115,19 +115,19 @@ plt.yticks(y_ticks[::5])
 
 解决方案二：
 
-<p align = "justify" style = "text-indent:2em">在Python脚本中动态设置matplotlibrc,这样也可以避免由于更改配置文件而造成的麻烦，具体代码如下:</p>
+<p align = "justify" style = "text-indent:2em">在Python脚本中动态设置matplotlibrc，这样也可以避免由于更改配置文件而造成的麻烦，具体代码如下:</p>
 
 ```python
 from pylab import mpl
 # 设置显示中文字体
-mpl.rcParams["font.sans-serif"]=["SimHei"]
+mpl.rcParams["font.sans-serif"] = ["SimHei"]
 ```
 
 <p align = "justify" style = "text-indent:2em">有时候，字体更改后，会导致坐标轴中的部分字符无法正显示，此时需要更改axes.unicode_minus参数:</p>
 
 ```python
 # 设置正常显示符号
-mpl.rcParams["axes.unicode_minus"]= False
+mpl.rcParams["axes.unicode_minus"] = False
 ```
 
 ### 添加网格显示
@@ -443,7 +443,7 @@ plt.show()
 
 - 呈现app每天下载数量
 
-- 呈现产品新功能上线后,用户点击次数随时间的变化
+- 呈现产品新功能上线后，用户点击次数随时间的变化
 
 - 拓展: 画各种数学函数图像
 
@@ -457,6 +457,7 @@ plt.show()
 <b>完整代码：</b>
 
 ```python
+import matplotlib.pyplot as plt
 import numpy as np
 
 # 0.准备数据

@@ -85,8 +85,8 @@ dtype是numpy.dtype类型，先看看对于数组来说都有那些类型：
 |np.uint32|无符号整数，0至2^32-1|'u4'|
 |np.uint64|无符号整数，0至2^64-1|'u8'|
 |np.float16|半精度浮点数: 16位，正负号1位，指数5位，精度10位|'f2'|
-|np.float32|单精度浮点数:32位，正负号1位，指数8位，精度23位|'f4'|
-|np.float64|双精度浮点数:64位，正负号1位，指数11位，精度52位|'f8'|
+|np.float32|单精度浮点数: 32位，正负号1位，指数8位，精度23位|'f4'|
+|np.float64|双精度浮点数: 64位，正负号1位，指数11位，精度52位|'f8'|
 |np.complex64|复数，分别用两个32位浮点数表示实部和虚部|'c8'|
 |np.complex128|复数，分别用两个64位浮点数表示实部和虚部|'c16'|
 |np.object_|python对象|'O'|
@@ -96,7 +96,7 @@ dtype是numpy.dtype类型，先看看对于数组来说都有那些类型：
 <b>创建数组的时候指定类型</b>
 
 ```python
->>> a = np.array([[1,2,3],[4,5，6]], dtype=np.float32)>>> a.dtype
+>>> a = np.array([[1,2,3],[4,5,6]], dtype=np.float32)>>> a.dtype
 dtype('float32')
 
 >>> arr = np.array(['python', 'tensorflow', 'scikit-learn', 'numpy'], dtype = np.string_)
@@ -119,17 +119,17 @@ array([b'python', b'tensorflow', b'scikit-learn', b'numpy'], dtype='|S12')
 - np.zeros_like(a, dtype)
 
 ```python
-ones = np.ones([4,8])
+ones = np.ones([4, 8])
 ones
 ```
 
 返回结果:
 
 ```python
-array([[1., 1. ,1. ,1., 1., 1., 1., 1.],
-       [1., 1. ,1. ,1., 1., 1., 1., 1.],
-       [1., 1. ,1. ,1., 1., 1., 1., 1.],
-       [1., 1. ,1. ,1., 1., 1., 1., 1.]])
+array([[1., 1., 1., 1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1., 1., 1., 1.],
+       [1., 1., 1., 1., 1., 1., 1., 1.]])
 ```
 
 ```python

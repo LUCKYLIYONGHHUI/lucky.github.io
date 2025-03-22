@@ -95,7 +95,7 @@ b=np.array(a)
 ```python
 CPU times: user 852 ms, sys: 262 ms, total: 1.11 s
 Wall time: 1.13 s
-CPU times: user 133 ms, sys: 653 us, total: 133 ms Wall time: 134 ms
+CPU times: user 133 ms, sys: 653 μs, total: 133 ms Wall time: 134 ms
 ```
 
 从中我们看到ndarray的计算速度要快很多，节约了时间。
