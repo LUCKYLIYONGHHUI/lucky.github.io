@@ -192,14 +192,14 @@ import pandas as pd
 pd.DataFrame(data=None, index=None, columns=None)
 ```
 
----
-
 - 参数:
     - index: 行标签。如果没有传入索引参数，则默认会自动创建一个从0-N的整数索引。
 
     - columns: 列标签。如果没有传入索引参数，则默认会自动创建一个从0-N的整数索引。
 
 - 通过已有数据创建
+
+---
 
 举例一:
 
