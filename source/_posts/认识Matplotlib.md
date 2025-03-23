@@ -8,18 +8,19 @@ keywords: [机器学习 ,Matplotlib]
 cover: /img/jiqirenyemian.png
 ---
 
-## 什么是Matplotlib
+## Matplotlib的介绍
 
 - 是专门用于开发2D图表(包括3D图表)
 - 以渐进、交互式方式实现数据可视化
 
 ---
 
-## 为什么学习Matplotlib
+## Matplotlib的优势
 
 可视化是在整个数据挖掘的关键辅助工具，可以清晰的理解数据，从而调整我们的分析方法。
 
 - 能将数据进行可视化，更直观的呈现
+
 - 使数据更加客观、更具说服力
 
 ---

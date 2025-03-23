@@ -249,7 +249,7 @@ np.where(np.logical_or(temp > 90, temp < 60), 1, 0)
 
 ### 案例: 学生成绩统计运算
 
-进行统计的时候，<b>axis轴的取值并不一定，Numpy中不同的API轴的值都不一样，在这里，axis 0代表列，axis 1代表行去进行统计</b>。
+<p align = "justify" style = "text-indent:2em">进行统计的时候，<b>axis轴的取值并不一定，Numpy中不同的API轴的值都不一样，在这里，axis 0代表列，axis 1代表行去进行统计</b>。</p>
 
 ```python
 # 接下来对于前四名学生，进行一些统计运算
