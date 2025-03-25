@@ -230,21 +230,27 @@ np.where(np.logical_or(temp > 90, temp < 60), 1, 0)
 在数据挖掘/机器学习领域，统计指标的值也是我们分析问题的一种方式。常用的指标如下:
 
 - min(a, axis)
+
   - Return the minimum of an array or minimum along an axis.（返回数组的最小值或沿轴的最小值。）
 
 - max(a, axis)
+
   - Return the maximum of an array or maximum along an axis.（返回数组的最大值或沿轴的最大值。）
 
 - median(a, axis)
+
   - Compute the median along the specified axis.（计算沿指定轴的中位数。）
 
 - mean(a, axis, dtype)
+
   - Compute the arithmetic mean along the specified axis.（计算沿指定轴的算术平均值。）
   
 - std(a, axis, dtype)
+
   - Compute the standard deviation along the specified axis.（计算沿指定轴的标准差。）
 
 - var(a, axis, dtype)
+
   - Compute the variance along the specified axis.（计算沿指定轴的方差。）
 
 ### 案例: 学生成绩统计运算

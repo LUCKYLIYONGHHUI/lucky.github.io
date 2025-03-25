@@ -90,11 +90,10 @@ b=np.array(a)
 %time sum2=np.sum(b)
 ```
 
-其中第一个时间显示的是使用原生Python计算时间,第二个内容是使用numpy计算时间:
+其中第一个时间显示的是使用原生Python计算时间，第二个内容是使用numpy计算时间:
 
 ```python
-CPU times: user 852 ms, sys: 262 ms, total: 1.11 s
-Wall time: 1.13 s
+CPU times: user 852 ms, sys: 262 ms, total: 1.11 s Wall time: 1.13 s
 CPU times: user 133 ms, sys: 653 μs, total: 133 ms Wall time: 134 ms
 ```
 

@@ -88,7 +88,9 @@ color: 选择柱状图的颜色
 
 ```css
 Parameters:
+
 x: 需要传递的数据
+
 bins: 组距
 ```
 
@@ -101,10 +103,14 @@ bins: 组距
 <p align = "justify" style = "text-indent:3em">api: plt.pie(x, labels=, autopct=, colors)</p>
 
 ```css
-Parameters :
+Parameters:
+
 x: 数量，自动算百分比
+
 labels: 每部分名称
+
 autopct: 占比显示指定%1.2f%%
+
 colors: 每部分颜色
 ```
 
