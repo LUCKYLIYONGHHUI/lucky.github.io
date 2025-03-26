@@ -48,7 +48,7 @@ data[:1, :2]
 
 ### 结合loc或者iloc使用索引
 
-获取从'2018-02-27':'2018-02-22'，'open'的结果
+获取从'2018-02-27': '2018-02-22'，'open'的结果
 
 ```python
 # 使用loc: 只能指定行列索引的名字
@@ -73,7 +73,7 @@ data.iloc[:3, :5]
 
 > Warning: Starting in 0.20.0, the .ix indexer is deprecated, in favor of the more strict .iloc and .loc indexers.
 
-获取行第1天到第4天，['open','close','high’,low"]这个四个指标的结果
+获取行第1天到第4天，['open','close','high','low']这个四个指标的结果
 
 ```python
 # 使用ix进行下表和名称组合做引
@@ -140,7 +140,7 @@ data.sort_values(by=['open', 'high'])
 
 ![](./pandas基础使用/Snipaste_03.png)
 
-- 使用df.sort index给索引进行排序
+- 使用df.sort_index给索引进行排序
 
 这个股票的日期索引原来是从大到小，现在重新排序，从小到大。
 
