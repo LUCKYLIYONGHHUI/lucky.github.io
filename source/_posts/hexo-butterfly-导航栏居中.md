@@ -3,8 +3,9 @@ title: hexo+butterfly 导航栏居中
 tags:
   - Hexo
   - Butterfly
+  - 问题区
 categories: 问题区
-keywords: 问题区
+keywords: [Hexo, Butterfly]
 cover: /img/hexowenti.png
 abbrlink: 8efe842b
 date: 2025-03-16 20:56:02

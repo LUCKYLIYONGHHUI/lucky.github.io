@@ -159,9 +159,9 @@ wis = wis.dropna()
 
 离散化有很多种方法，这使用一种最简单的方式去操作:
 
-- 原始人的身高数据: 165，174，160，180，159，163，192，184
+- 原始人的身高数据: 165, 174, 160, 180, 159, 163, 192, 184
 
-- 假设按照身高分几个区间段: 150~165, 165~180, 180~195
+- 假设按照身高分几个区间段: 150~ 165, 165~ 180, 180~ 195
 
 这样我们将数据分到了三个区间段，我可以对应的标记为矮、中、高三个类别，最终要处理成一个“哑变量”矩阵。
 
@@ -273,7 +273,7 @@ pd.concat([data, dummies], axis=1)
 |outer|FULL OUTER JOIN|Use union of keys from both frames|
 |inner|INNER JOIN|Use intersection of keys from both frames|
 
-### 2.1 pd.merge合并
+### pd.merge合并
 
 ```python
 left = pd.DataFrame({'key1': ['K0', 'K0', 'K1', 'K2'],

@@ -2,9 +2,9 @@
 title: GitHub部署vercel页面显示404？
 abbrlink: 2b36786b
 date: 2025-03-08 22:47:37
-tags: [Hexo, GitHub]
+tags: [问题区, GitHub, Hexo]
 categories: 问题区
-keywords: 问题区
+keywords: GitHub
 cover: /img/hexowenti.png
 ---
 
