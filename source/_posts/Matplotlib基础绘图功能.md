@@ -7,7 +7,7 @@ categories: 机器学习
 keywords:
   - 机器学习
   - Matplotlib
-cover: /img/jiqirenyemian.png
+cover: /img/Matplotlibtu.png
 abbrlink: f7e23b64
 date: 2025-03-13 19:59:13
 ---

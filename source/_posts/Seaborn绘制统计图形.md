@@ -7,7 +7,7 @@ categories: 机器学习
 keywords:
   - 机器学习
   - Seaborn
-cover: /img/jiqirenyemian.png
+cover: /img/Seaborntu.png
 abbrlink: 81e6a0aa
 date: 2025-03-28 17:54:04
 ---

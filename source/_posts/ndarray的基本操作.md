@@ -7,7 +7,7 @@ categories: 机器学习
 keywords:
   - 机器学习
   - Numpy
-cover: /img/jiqirenyemian.png
+cover: /img/Numpytu.png
 abbrlink: 114868fd
 date: 2025-03-22 09:44:24
 ---

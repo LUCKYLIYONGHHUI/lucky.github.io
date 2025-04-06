@@ -7,7 +7,7 @@ categories: 机器学习
 keywords:
   - 机器学习
   - Pandas
-cover: /img/jiqirenyemian.png
+cover: /img/Pandastu.png
 abbrlink: 6fe800b5
 date: 2025-03-24 22:03:03
 ---

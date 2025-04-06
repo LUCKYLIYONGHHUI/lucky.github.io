@@ -5,7 +5,7 @@ date: 2025-03-12 23:23:36
 tags: [机器学习 ,Matplotlib]
 categories: 机器学习
 keywords: [机器学习 ,Matplotlib]
-cover: /img/jiqirenyemian.png
+cover: /img/Matplotlibtu.png
 ---
 
 ## Matplotlib的介绍
