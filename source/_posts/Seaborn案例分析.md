@@ -136,7 +136,7 @@ new_df = pd.DataFrame({'区域': file_data['区域'].unique(),'数量': [0]*13})
 
 ![](./Seaborn案例分析/Snipaste_04.png)
 
-接下来，通过 Pandas的 groupby()方法将 file_data对象按照“区域”一列进行分组，并利用count()方法统计每个分组的数量，具体代码如下:
+<p align = "justify" style = "text-indent:2em">接下来，通过 Pandas的 groupby()方法将 file_data对象按照“区域”一列进行分组，并利用count()方法统计每个分组的数量，具体代码如下:</p>
 
 ```python
 # 按“区域”列将file_data进行分组，并统计每个分组的数量
@@ -227,7 +227,7 @@ df_all = pd.DataFrame({'区域': file_data['区域'].unique(),
 ```
 ![](./Seaborn案例分析/Snipaste_10.png)
 
-接下来，按照“区域”一列进行分组，然后调用sum()方法分别对房租金额和房屋面积执行求和计算，具体代码如下:
+<p align = "justify" style = "text-indent:2em">接下来，按照“区域”一列进行分组，然后调用sum()方法分别对房租金额和房屋面积执行求和计算，具体代码如下:</p>
 
 ```python
 # 求总金额和总面积
