@@ -3,7 +3,7 @@ title: Fiddler基本使用
 tags: Fiddler
 categories: Fiddler
 keywords: Fiddler
-cover: /img/wallhaven-dp328o.png
+cover: /img/Fiddlertu.png
 abbrlink: de8f68e7
 date: 2025-04-06 10:56:37
 ---
@@ -188,9 +188,9 @@ REGEX:(?insx)/[^\?/]*\.(css|ico|jpg|png|gif|bmp|wav|js|jpeg)(\?.*)?$
 
 发送请求之前，可以执行重新发送：Replay
 
-    -测试不同的正例，反例抓包获取不同的响应结果
+- 测试不同的正例，反例抓包获取不同的响应结果
     
-    - 通过多次调试，抓取必带参数信息，不是必带信息进行删除
+- 通过多次调试，抓取必带参数信息，不是必带信息进行删除
 
 ## 如何定位前后端的bug？
 
