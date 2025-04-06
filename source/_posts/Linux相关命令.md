@@ -3,7 +3,7 @@ title: Linux相关命令
 tags: Linux
 categories: Linux
 keywords: Linux
-cover: /img/wallhaven-dp328o.png
+cover: /img/Linuxtu.png
 abbrlink: d89667a3
 date: 2025-03-23 15:12:55
 ---
