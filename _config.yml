@@ -68,6 +68,8 @@ tag_dir: tags
 archive_dir: archives
 # 分类对应的目录
 category_dir: categories
+# 问题区对应的目录
+wentiqu_dir: wentiqu
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
