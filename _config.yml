@@ -164,6 +164,6 @@ deploy:
   type: git
   repository: git@github.com:LUCKYLIYONGHHUI/lucky.github.io.git
   branch: main
-  message: # 可留白但禁止删除此行
+  message:  # 可留白但禁止删除此行
   skip_clean: true # 禁用自动清理 Public 目录
   skip_render: true # 禁用渲染后回调
