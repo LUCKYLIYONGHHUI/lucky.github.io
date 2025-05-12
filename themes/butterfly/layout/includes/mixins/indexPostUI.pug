@@ -3,7 +3,7 @@ mixin indexPostUI()
   - const masonryLayoutClass = (indexLayout === 6 || indexLayout === 7) ? 'masonry' : ''
   #recent-posts.recent-posts.nc(class=masonryLayoutClass)
     .recent-post-items
-      each article, index in page.posts.data
+      each article, index in (page.posts ? page.posts.data : [])
         .recent-post-item
           - const link = article.link || article.path
           - const title = article.title || _p('no_title')

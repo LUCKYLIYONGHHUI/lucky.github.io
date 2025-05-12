@@ -6,5 +6,8 @@ layout: wentiqu-index
 pagination:
   enabled: true
   per_page: 10
+  # 添加以下字段强制分页
+  data: posts
+  size: 10
 top_img: /img/wallhaven-1p11l9.png
 ---
