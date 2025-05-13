@@ -120,13 +120,16 @@ index_generator:
   per_page: 14
   order_by: -date
 
-index_page:
-  path: ''         # 主页路径（默认）
+# index_page:
+#   path: ''         # 主页路径（默认）
 
-anliqu_page:
-  path: anliqu/ # 自定义页路径
-  per_page: 14     # 每页文章数
-  order_by: -date  # 按日期排序
+# anliqu_page:
+#   path: anliqu/ # 自定义页路径
+#   per_page: 14     # 每页文章数
+#   order_by: -date  # 按日期排序
+
+anliqu_layout:
+  anliqu: anliqu
 
 # Category & Tag
 default_category: uncategorized
