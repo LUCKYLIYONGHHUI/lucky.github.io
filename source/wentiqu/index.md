@@ -11,6 +11,9 @@ pagination:
   alias: wentiqu        # 全局唯一标识符
   order_by: -date       # 按发布时间倒序
   filter:
+    category: 问题区   # 按分类过滤
     published: true     # 过滤未发布文章
 top_img: /img/wallhaven-1p11l9.png
 ---
+
+开发中...
