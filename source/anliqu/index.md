@@ -2,7 +2,7 @@
 title: 案例区
 date: 2025-04-17 21:06:29
 category: 案例区
-layout: anliiqu_index
+layout: home
 # pagination:
 #   enabled: true
 #   per_page: 10
