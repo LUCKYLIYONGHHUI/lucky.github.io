@@ -51,6 +51,10 @@ live2d:
   mobile:
     show: false
 
+# 跳过渲染
+# skip_render: 
+#   - "HTML/**"
+
 search:
   path: search.xml
   field: all # post:文章范围、page:页面范围、all:覆盖所有
@@ -115,6 +119,14 @@ index_generator:
   path: ''
   per_page: 14
   order_by: -date
+
+index_page:
+  path: ''         # 主页路径（默认）
+
+anliqu_page:
+  path: anliqu/ # 自定义页路径
+  per_page: 14     # 每页文章数
+  order_by: -date  # 按日期排序
 
 # Category & Tag
 default_category: uncategorized
