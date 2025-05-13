@@ -1,7 +1,7 @@
 <%- partial('_partial/page-header') %>
 <main class="layout">
   <section>
-    <% site.posts.each(function(post){ %>
+    <% site.posts.filter(post => post.categories.data.some(cat => cat.name === '案例区')).forEach(function(post){ %>
       <article>
         <a href="<%= url_for(post.path) %>"><%= post.title %></a>
         <span><%= post.date.format('YYYY-MM-DD') %></span>
