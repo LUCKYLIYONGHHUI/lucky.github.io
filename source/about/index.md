@@ -3,7 +3,7 @@ title: LUCKY
 date: 2023-03-17 13:13:11
 type: "about"
 aside: false
-background-color: transparent
+# background-color: transparent
 top_img: /img/wallhaven-1p11l9.png
 ---
 <div align = "center"><h2>-博主简介-</h2></div>

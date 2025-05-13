@@ -4,7 +4,7 @@ date: 2023-03-20 19:45:13
 type: "zuopinji"
 aside: false
 category: 作品集
-layout: zuopinji-index
+# layout: zuopinji-index
 top_img: /img/wallhaven-1p11l9.png
 ---
 <!-- 
