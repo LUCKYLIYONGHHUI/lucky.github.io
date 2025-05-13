@@ -9,16 +9,16 @@ top_img: /img/wallhaven-1p11l9.png
 ---
 
 <div class="gallery-group-main">
-{% galleryGroup '详情页' '电商设计' '/xiangqingye' https://images.unsplash.com/photo-1742599968125-a790a680a605?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyMXxibzhqUUtUYUUwWXx8ZW58MHx8fHx8 %}
-{% galleryGroup 'BANNER' '电商设计' '/banner' https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup '活动主KV' '电商设计' '/huodong' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup '直通车' '电商设计' '/zhitongche' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup '海报' '平面设计' '/haibao' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup 'LOGO' '平面设计' '/logo' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup '名片' '平面设计' '/mingpian' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup '单页' '平面设计' '/danye' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup '三折页' '平面设计' '/sanzheye' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
-{% galleryGroup '易拉宝' '平面设计' '/yilabao' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '详情页' '电商设计' '/xiangqingye' https://plus.unsplash.com/premium_photo-1745605351556-24ab2aa48c50?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup 'BANNER' '电商设计' '/banner' https://plus.unsplash.com/premium_photo-1743715109006-12ddef337111?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '活动主KV' '电商设计' '/huodong' https://images.unsplash.com/photo-1741888181508-851b1283ed8e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '直通车' '电商设计' '/zhitongche' https://plus.unsplash.com/premium_photo-1743847030154-988397bcd033?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '海报' '平面设计' '/haibao' https://plus.unsplash.com/premium_photo-1743965457215-0819b849b0d1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup 'LOGO' '平面设计' '/logo' https://images.unsplash.com/photo-1739534216904-9cd7711b43df?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '名片' '平面设计' '/mingpian' https://images.unsplash.com/photo-1733044271325-3017e877218b?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '单页' '平面设计' '/danye' https://images.unsplash.com/photo-1738005787757-26cbc96a3267?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '三折页' '平面设计' '/sanzheye' https://images.unsplash.com/photo-1739489884103-7922d568062f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '易拉宝' '平面设计' '/yilabao' https://images.unsplash.com/photo-1737461285484-bc4635d0f363?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
 </div>
 
 
