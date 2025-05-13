@@ -5,22 +5,13 @@ aside: false
 type: "sucaiku_detail"
 ---
 
-[
-  {
-    "url": "https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0556.jpg",
-    "alt": "IMG_0556.jpg",
-    "title": "这是title"
-  },
-  {
-    "url": "https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0472.jpg",
-    "alt": "IMG_0472.jpg"
-  },
-  {
-    "url": "https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0453.jpg",
-    "alt": ""
-  },
-  {
-    "url": "https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/IMG_0931.jpg",
-    "alt": ""
-  }
-]
+{% gallery %}
+![](https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg)
+![](https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg)
+![](https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg)
+![](https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg)
+![](https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg)
+![](https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg)
+![](https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg)
+![](https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg)
+{% endgallery %}
