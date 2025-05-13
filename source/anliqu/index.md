@@ -1,16 +1,9 @@
 ---
 title: 案例区
 date: 2025-04-17 21:06:29
+aside: false
 category: 案例区
-type: 案例区
-layout: anliqu-index1
-# pagination:
-#   enabled: true
-#   per_page: 10
-#   data: _posts         # 必须指定数据源
-#   alias: anliqu        # 全局唯一标识符
-#   order_by: -date      # 按发布时间倒序
-#   filter:
-#     category: 案例区  # 需与文章分类对应
+type: "anliqu"
+layout: anliqu-index
 top_img: /img/wallhaven-1p11l9.png
 ---

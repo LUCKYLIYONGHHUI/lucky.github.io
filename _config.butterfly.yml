@@ -48,7 +48,7 @@ menu:
     案例区: /anliqu/ || hide
     作品集: /categor/ || hide
     问题区: /arch/ || hide
-  论文: /lunwen/ || iconfont icon-xitongjicheng
+  友链: /youlian/ || iconfont icon-xitongjicheng
   博主: /about/ || iconfont icon-wode
 ##  sitemap: /sitemap.xml || sitemap
 
@@ -363,7 +363,7 @@ aside:
     expand: none
     sort_order:
   card_tags:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 40
     color: true
