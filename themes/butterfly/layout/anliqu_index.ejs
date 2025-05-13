@@ -1,0 +1,16 @@
+<!-- 显示特定分类的文章 -->
+<% var cat = page.category || '案例区'; %>
+<% site.categories.findOne({name: cat}).posts.each(function(post){ %>
+  <article>
+    <h2><a href="<%= url_for(post.path) %>"><%= post.title %></a></h2>
+    <div class="post-meta">
+      <time><%= post.date.format('YYYY-MM-DD') %></time>
+      <% if(post.tags && post.tags.length){ %>
+        <% post.tags.forEach(function(tag){ %>
+          <a href="<%= url_for(tag.path) %>">#<%= tag.name %></a>
+        <% }) %>
+      <% } %>
+    </div>
+    <%- post.excerpt %>
+  </article>
+<% }) %>
