@@ -7,6 +7,21 @@ category: 作品集
 # layout: zuopinji-index
 top_img: /img/wallhaven-1p11l9.png
 ---
+
+<div class="gallery-group-main">
+{% galleryGroup '详情页' '电商设计' '/xiangqingye' https://images.unsplash.com/photo-1742599968125-a790a680a605?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyMXxibzhqUUtUYUUwWXx8ZW58MHx8fHx8 %}
+{% galleryGroup 'BANNER' '电商设计' '/banner' https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '活动主KV' '电商设计' '/huodong' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '直通车' '电商设计' '/zhitongche' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '海报' '平面设计' '/haibao' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup 'LOGO' '平面设计' '/logo' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '名片' '平面设计' '/mingpian' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '单页' '平面设计' '/danye' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '三折页' '平面设计' '/sanzheye' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '易拉宝' '平面设计' '/yilabao' https://images.unsplash.com/photo-1745984558347-3c95e0b46fb6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+</div>
+
+
 <!-- 
 <p align = "justify" style = "text-indent:2em">欢迎来到我的个人作品集，下面将为你展示我的日常作品：</p>
 
