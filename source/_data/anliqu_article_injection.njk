@@ -1,0 +1,7 @@
+{% if page.type === 'anliqu' %}
+  <section class="home-articles">
+    {% for post in site.posts %}
+      <article>{{ post.title }}</article>
+    {% endfor %}
+  </section>
+{% endif %}
