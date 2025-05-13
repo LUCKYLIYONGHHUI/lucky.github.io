@@ -72,8 +72,6 @@ tag_dir: tags
 archive_dir: archives
 # 分类对应的目录
 category_dir: categories
-# 案例区对应的目录
-anliqu_dir: anliqu
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
