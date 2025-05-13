@@ -46,8 +46,8 @@ menu:
     计算机: /computer/ || hide
   资源 || iconfont icon-xinwenzixun:
     案例区: /anliqu/ || hide
-    作品集: /categor/ || hide
-    问题区: /arch/ || hide
+    作品集: /zuopinji/ || hide
+    问题区: /wentiqu/ || hide
   友链: /youlian/ || iconfont icon-xitongjicheng
   博主: /about/ || iconfont icon-wode
 ##  sitemap: /sitemap.xml || sitemap
