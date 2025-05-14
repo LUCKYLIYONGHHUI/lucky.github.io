@@ -35,10 +35,10 @@ menu:
   # Link: /link/ || fas fa-link
   # About: /about/ || fas fa-heart
   首页: / || iconfont icon-shouye
-  # 目录 || iconfont icon-gongneng:
-  #   归档: /archives/ || hide
-  #   标签: /tags/ || hide
-  #   分类: /categories/ || hide
+  目录 || iconfont icon-gongneng:
+    归档: /archives/ || hide
+    标签: /tags/ || hide
+    分类: /categories/ || hide
   学习 || iconfont icon-xiangmu:
     C4D: /C4D/ || hide
     高数: /gaoshu/ || hide
@@ -320,7 +320,7 @@ footer:
 # --------------------------------------
 
 aside:
-  enable: true
+  enable: false
   hide: false
   # Show the button to hide the aside in bottom right button
   button: true
@@ -843,7 +843,7 @@ preloader:
 enter_transitions: true
 
 # Default display mode - light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Configuration for beautifying the content of the article
 beautify:
@@ -1095,7 +1095,7 @@ inject:
     - <link rel="stylesheet" href="/css/daohanglan.css">
     # - <link rel="stylesheet" href="/css/biaotijuzjong.css">
     # - <link rel="stylesheet" href="/css/touming.css">
-    # - <link rel="stylesheet" href="/css/transparent.css"> # 文章、目录、个人主页透明度设置
+    - <link rel="stylesheet" href="/css/transparent.css"> # 文章、目录、个人主页透明度设置
   bottom:
     - <script defer src="https://fastly.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
     - <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js" async></script>
