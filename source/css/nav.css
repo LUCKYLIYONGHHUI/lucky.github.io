@@ -13,7 +13,7 @@
     /* 菜单容器设置为弹性容器并居中 */
     #menus {
       display: flex;
-      gap: 4rem; /* 菜单项之间的间距 */
+      gap: 8rem; /* 菜单项之间的间距 */
       flex-grow: 1; /* 让菜单占据剩余空间 */
       justify-content: space-between; /* 菜单项水平对齐 */
     }
