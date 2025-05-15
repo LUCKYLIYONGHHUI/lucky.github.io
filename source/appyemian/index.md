@@ -33,3 +33,9 @@ type: "sucaiku_detail"
 ---
 
 <p style="font-size: 30px; text-align: center; font-weight: normal;">---花瓣---</p>
+
+{% gallery %}
+![](https://gd-hbimg.huaban.com/eb285f23d22c7ab5a690ea19919b45a27c79003d185fe-m5RRXJ_fw658webp)
+![](https://gd-hbimg.huaban.com/89792f3766a9e924629e4d1c3cf76ffc4ecb04401847c-h04ANN_fw658webp)
+![](https://gd-hbimg.huaban.com/ab72032c44d9fbde5cbdd2f6c43c8d336b48e6a61cefc-fUa0T3_fw658webp)
+{% endgallery %}
