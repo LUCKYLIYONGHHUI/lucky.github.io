@@ -5,8 +5,8 @@ aside: false
 type: "sucaiku_detail"
 ---
 
+<p style="font-size: 30px; text-align: center; font-weight: normal;">---pinterest---</p>
 {% gallery %}
-![](https://i.pinimg.com/736x/1b/f5/e5/1bf5e53a4e64debcc064095c2c7c2784.jpg)
 ![](https://i.pinimg.com/736x/fc/17/8e/fc178ea29d95a85744e2e663c1a4b4ac.jpg)
 ![](https://i.pinimg.com/736x/28/85/a3/2885a33ba1a4ac44e6ad9ba8ee500bcd.jpg)
 ![](https://i.pinimg.com/736x/ce/7a/1a/ce7a1a0b28af0501e3dcf0eb48c3caf1.jpg)
@@ -25,3 +25,7 @@ type: "sucaiku_detail"
 ![](https://i.pinimg.com/736x/2e/b5/40/2eb5407f1914ccc7c0a741e7ed67d356.jpg)
 ![](https://i.pinimg.com/736x/2e/fd/5d/2efd5da423ac1d6f46b3818f2b385667.jpg)
 {% endgallery %}
+
+---
+
+<p style="font-size: 30px; text-align: center; font-weight: normal;">---花瓣---</p>
