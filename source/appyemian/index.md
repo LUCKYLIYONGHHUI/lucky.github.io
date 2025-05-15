@@ -5,6 +5,10 @@ aside: false
 type: "sucaiku_detail"
 ---
 
+> 目前Pinterest部分的图片需要挂梯子才能预览，正在处理中...
+
+---
+
 <p style="font-size: 30px; text-align: center; font-weight: normal;">---pinterest---</p>
 {% gallery %}
 ![](https://i.pinimg.com/736x/fc/17/8e/fc178ea29d95a85744e2e663c1a4b4ac.jpg)
