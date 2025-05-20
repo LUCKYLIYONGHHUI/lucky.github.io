@@ -6,6 +6,9 @@ type: "zuopinji_detail"
 ---
 
 {% gallery %}
-![](/sanzheye/index/三折页_01.png)
-![](/sanzheye/index/三折页_02.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E4%B8%89%E6%8A%98%E9%A1%B5_01.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E4%B8%89%E6%8A%98%E9%A1%B5_02.png)
 {% endgallery %}
+
+<!-- ![](/sanzheye/index/三折页_01.png)
+![](/sanzheye/index/三折页_02.png) -->

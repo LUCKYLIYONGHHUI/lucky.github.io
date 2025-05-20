@@ -6,6 +6,9 @@ type: "zuopinji_detail"
 ---
 
 {% gallery %}
-![](/haibao/index/海报_01.png)
-![](/haibao/index/海报_02.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E6%B5%B7%E6%8A%A5_01.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E6%B5%B7%E6%8A%A5_02.png)
 {% endgallery %}
+
+<!-- ![](/haibao/index/海报_01.png)
+![](/haibao/index/海报_02.png) -->

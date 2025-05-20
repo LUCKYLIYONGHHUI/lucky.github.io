@@ -6,6 +6,9 @@ type: "zuopinji_detail"
 ---
 
 {% gallery %}
-![](/logo/index/LOGO_01.png)
-![](/logo/index/LOGO_02.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/LOGO_01.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/LOGO_02.png)
 {% endgallery %}
+
+<!-- ![](/logo/index/LOGO_01.png)
+![](/logo/index/LOGO_02.png) -->
