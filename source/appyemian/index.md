@@ -36,9 +36,13 @@ type: "sucaiku_detail"
 <p style="font-size: 30px; text-align: center; font-weight: normal;">---花瓣---</p>
 
 {% gallery %}
-![](/appyemian/huaban/eb285f23d22c7ab5a690ea19919b45a27c79003d185fe-m5RRXJ.webp)
+<!-- ![](/appyemian/huaban/eb285f23d22c7ab5a690ea19919b45a27c79003d185fe-m5RRXJ.webp)
 ![](/appyemian/huaban/89792f3766a9e924629e4d1c3cf76ffc4ecb04401847c-h04ANN.webp)
 ![](/appyemian/huaban/ab72032c44d9fbde5cbdd2f6c43c8d336b48e6a61cefc-fUa0T3.webp)
-![](/appyemian/huaban/453af8b9a9eea1ece2a16efebc84a41d5cacc5269cfbb9-jJiGsO.png)
+![](/appyemian/huaban/453af8b9a9eea1ece2a16efebc84a41d5cacc5269cfbb9-jJiGsO.png) -->
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/eb285f23d22c7ab5a690ea19919b45a27c79003d185fe-m5RRXJ.webp)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/ab72032c44d9fbde5cbdd2f6c43c8d336b48e6a61cefc-fUa0T3.webp)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/89792f3766a9e924629e4d1c3cf76ffc4ecb04401847c-h04ANN.webp)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/453af8b9a9eea1ece2a16efebc84a41d5cacc5269cfbb9-jJiGsO.png)
 ![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/20250520080515580.png)
 {% endgallery %}
