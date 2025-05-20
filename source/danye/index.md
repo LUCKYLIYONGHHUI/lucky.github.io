@@ -6,9 +6,9 @@ type: "zuopinji_detail"
 ---
 
 {% gallery %}
-![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E5%8D%95%E9%A1%B5_01.png)
-![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E5%8D%95%E9%A1%B5_02.png)
+![](/danye/index/单页_01.png)
+![](/danye/index/单页_02.png)
 {% endgallery %}
 
-<!-- ![](/danye/index/单页_01.png)
-![](/danye/index/单页_02.png) -->
+<!-- ![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E5%8D%95%E9%A1%B5_01.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E5%8D%95%E9%A1%B5_02.png) -->

@@ -6,7 +6,7 @@ type: "zuopinji_detail"
 ---
 
 {% gallery %}
-![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E5%90%8D%E7%89%87_01.png)
+![](/mingpian/index/名片_01.png)
 {% endgallery %}
 
-<!-- ![](/mingpian/index/名片_01.png) -->
+<!-- ![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/%E5%90%8D%E7%89%87_01.png) -->
