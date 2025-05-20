@@ -5,10 +5,6 @@ aside: false
 type: "sucaiku_detail"
 ---
 
-> 目前花瓣网的图片暂时无法加载，正在处理中...
-
----
-
 <p style="font-size: 30px; text-align: center; font-weight: normal;">---pinterest---</p>
 {% gallery %}
 ![](/appyemian/pinterest/Archi250519.jfif)
