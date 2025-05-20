@@ -40,4 +40,5 @@ type: "sucaiku_detail"
 ![](/appyemian/huaban/89792f3766a9e924629e4d1c3cf76ffc4ecb04401847c-h04ANN.webp)
 ![](/appyemian/huaban/ab72032c44d9fbde5cbdd2f6c43c8d336b48e6a61cefc-fUa0T3.webp)
 ![](/appyemian/huaban/453af8b9a9eea1ece2a16efebc84a41d5cacc5269cfbb9-jJiGsO.png)
+![](https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/20250520080515580.png)
 {% endgallery %}
