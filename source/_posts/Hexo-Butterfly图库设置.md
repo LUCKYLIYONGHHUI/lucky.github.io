@@ -8,7 +8,6 @@ categories: 问题区
 keywords:
   - Hexo
   - Butterfly
-aside: false
 cover: >-
   https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/Generate%20Picture%20with%20'gallery'.png
 abbrlink: 3370dee4
