@@ -16,7 +16,7 @@
 }
 
 /*侧边栏页面1*/
-#aside-content>.card-widget  {
+#aside-content>.card-widget{
     /* background: rgba(255,255,255,.98); */
     background: rgba(0, 0, 0, 0.15); 
     /* background: transparent !important; */

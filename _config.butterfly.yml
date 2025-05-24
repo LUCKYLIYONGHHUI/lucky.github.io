@@ -1110,6 +1110,7 @@ inject:
     - <link rel="stylesheet" href="/css/daohanglan.css">
     # - <link rel="stylesheet" href="/css/biaotijuzjong.css">
     # - <link rel="stylesheet" href="/css/touming.css">
+    - <link rel="stylesheet" href="/css/wenzhang_aside.css">
     - <link rel="stylesheet" href="/css/transparent.css"> # 文章、目录、个人主页透明度设置
   bottom:
     - <script defer src="https://fastly.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
