@@ -5,6 +5,8 @@ aside: false
 type: "zuopinji_detail"
 ---
 
-{% gallery %}
+{% video /bduanzuoping/index/Animated_3D_Figma_Website_Design.mp4 %}
+
+<!-- {% gallery %}
 ![](/bduanzuoping/index/Animated 3D Figma Website Design.mp4)
-{% endgallery %}
+{% endgallery %} -->
