@@ -11,3 +11,10 @@ type: "zuopinji_detail"
   您的浏览器不支持视频格式。
 </video>
 {% endraw %}
+
+{% raw %}
+<video controls width="100%">
+  <source src="/bduanzuoping/index/Advanced_Figma_Animation_Like_a_Pro.mp4" type="video/mp4">
+  您的浏览器不支持视频格式。
+</video>
+{% endraw %}
