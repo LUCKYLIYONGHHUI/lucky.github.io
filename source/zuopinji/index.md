@@ -14,6 +14,7 @@ top_img: /img/wallhaven-1p11l9.png
 {% galleryGroup 'B端' 'UI设计' '/bduanzuoping' https://plus.unsplash.com/premium_photo-1743715109006-12ddef337111?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
 {% galleryGroup '小程序' 'UI设计' '/xiaochengxuzuoping' https://images.unsplash.com/photo-1741888181508-851b1283ed8e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
 {% galleryGroup 'H5' 'UI设计' '/h5zuoping' https://plus.unsplash.com/premium_photo-1743847030154-988397bcd033?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
+{% galleryGroup '组件' 'UI设计' '/zujianzuoping' https://plus.unsplash.com/premium_photo-1720744786864-440bb3ffd11f?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D %}
 </div>
 
 ---
