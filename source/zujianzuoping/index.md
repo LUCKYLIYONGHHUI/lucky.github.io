@@ -4,3 +4,7 @@ date: 2025-05-31 11:16:47
 aside: false
 type: "zuopinji_detail"
 ---
+
+{% gallery %}
+![](/zujianzuoping/index/Neumorphism.png)
+{% endgallery %}
