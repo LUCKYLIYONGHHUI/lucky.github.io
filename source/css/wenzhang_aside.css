@@ -1,0 +1,15 @@
+.layout>#post>#aside-content>.card-widget{
+    display: none;
+}
+
+.layout>#post>#aside-content>.sticky_layout>.card-widget{
+    display: none;
+}
+
+.layout>#post>#aside-content>.card-widget{
+    display: none;
+}
+
+.layout>#post>#top-img{
+    display: none;
+}

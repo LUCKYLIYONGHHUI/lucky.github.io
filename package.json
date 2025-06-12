@@ -1,0 +1,47 @@
+{
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server"
+  },
+  "hexo": {
+    "version": "7.3.0"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "bluebird": "^3.7.2",
+    "hexo-abbrlink": "^2.2.1",
+    "hexo-asset-image": "^1.0.0",
+    "hexo-deployer-git": "^4.0.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-helper-live2d": "^3.1.1",
+    "hexo-pagination": "^4.0.0",
+    "hexo-prism-plugin": "^2.3.0",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^7.0.0",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "hexo-tag-video": "^0.0.2",
+    "hexo-theme-landscape": "^1.0.0",
+    "hexo-wordcount": "^6.0.1",
+    "live2d-widget-model-haru": "^1.0.5",
+    "live2d-widget-model-koharu": "^1.0.5",
+    "live2d-widget-model-z16": "^1.0.5",
+    "or": "^0.2.0",
+    "pug": "^3.0.3",
+    "save": "^2.9.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "hexo": "^7.3.0"
+  }
+}

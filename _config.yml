@@ -1,0 +1,183 @@
+﻿# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: LUCKY
+subtitle: '一个乐于分享技术与快乐的博主'
+description: '有道无术，术尚可求；有术无道，止于术'
+keywords: "技术分享"
+author: LUCKY
+language: zh-CN
+timezone: Asia/Shanghai
+
+# # 是否启用移动端适配
+# mobile:
+#   enable: true
+#   # 菜单切换按钮样式（可选）
+#   menu_button:
+#     icon: ☰
+#     text: Menu
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://www.luckylyh.top/
+# permalink: :year/:month/:day/:title/
+permalink: post/:abbrlink.html # post为自定义前缀
+abbrlink:
+	alg: crc32   #算法： crc16(default) and crc32
+	rep: hex     #进制： dec(default) and hex
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+#看板娘
+#Live2D动画
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-koharu 
+  display:
+    position: left 
+    width: 150
+    height: 300
+  mobile:
+    show: false
+
+# 跳过渲染
+# skip_render: 
+#   - "HTML/**"
+
+search:
+  path: search.xml
+  field: all # post:文章范围、page:页面范围、all:覆盖所有
+  content: true # 内容是否包含每一篇文章的全部内容
+  template:  # ./search.xml 指定定制的XML模板
+
+# Directory
+# 文章对应的位置
+source_dir: source
+# 渲染的文件位置
+public_dir: public
+# 标签对应的文件目录
+tag_dir: tags
+# 时间线对应的目录
+archive_dir: archives
+# 分类对应的目录
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true
+relative_link: false
+future: true
+syntax_highlighter: highlight.js
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace: false
+  wrap: true
+  hljs: false
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
+
+# prismjs:
+ # preprocess: true
+ # line_number: true
+ # tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 12
+  order_by: -date
+
+# index_page:
+#   path: ''         # 主页路径（默认）
+
+# anliqu_page:
+#   path: anliqu/ # 自定义页路径
+#   per_page: 14     # 每页文章数
+#   order_by: -date  # 按日期排序
+
+# anliqu_layout:
+#   anliqu: anliqu
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+post_wordcount:
+  date: true # 发布日期
+  update: true # 更新日期
+  wordCount: true # 文章字数统计
+  totalCount: true # 站点总文章字数
+  min2read: true # 文章阅读时长
+  readCount: true # 文章阅读次数
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  # repository: git@github.com:LUCKYLIYONGHHUI/lucky.github.io.git
+  repository: https://github.com/LUCKYLIYONGHHUI/lucky.github.io.git
+  branch: main
+  # message:  # 可留白但禁止删除此行
+  # skip_clean: true # 禁用自动清理 Public 目录
+  # skip_render: true # 禁用渲染后回调

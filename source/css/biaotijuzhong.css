@@ -1,0 +1,9 @@
+/* 在main.styl或custom.styl中添加以下CSS规则 */
+#nav-right {
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+  }
+  

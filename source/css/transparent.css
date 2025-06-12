@@ -1,0 +1,45 @@
+/* 主页所有文章页面背景 */
+/* #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    background: rgba(255, 255, 255, .98);
+
+/*文章页面*/
+.layout>#post{
+    /* background: rgba(255,255,255,.98); */
+    background: rgba(0, 0, 0, 0.15);
+    /* background: transparent !important; */
+}
+
+/*分类页面*/
+.layout>#page{
+    /* background: rgba(255,255,255,.98); */
+    background: transparent !important;
+}
+
+/*侧边栏页面1*/
+#aside-content>.card-widget{
+    /* background: rgba(255,255,255,.98); */
+    background: rgba(0, 0, 0, 0.15); 
+    /* background: transparent !important; */
+}
+
+/*侧边栏页面2*/
+#aside-content>.sticky_layout>.card-widget{
+    background: rgba(0, 0, 0, 0.15); 
+    /* background: transparent !important; */
+}
+
+/*时间轴页面*/
+.layout>#archive{
+    background: rgba(0, 0, 0, 0.15); 
+    /* background: transparent !important; */
+}
+
+/* 没有生效 */
+#aside-content>.post-reward>.reward-button{ 
+    /* ​动态渐变色​（吸引眼球） */
+    /* background: linear-gradient(135deg, #FF7242 0%, #FFA042 100%);  */
+    /* 微交互动画 */
+    /* transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);  */
+    background: rgba(0, 0, 0, 0.15); 
+}
+
