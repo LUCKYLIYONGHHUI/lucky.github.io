@@ -5,6 +5,7 @@ tags:
   - GitHub
 categories: 问题区
 keywords: GitHub
+aside: false
 abbrlink: 7b3d0544
 date: 2025-06-05 19:58:19
 cover: https://cdn.jsdelivr.net/gh/LUCKYLIYONGHHUI/picture@main/PicGo.png

@@ -1,8 +1,9 @@
 ---
-title: C4D Redshift 2.6.41渲染器如何去水印？图文详解
+title: C4D-Redshift 2.6.41渲染器如何去水印？图文详解
 tags: [C4D, 问题区]
 categories: 问题区
 keywords: C4D
+aside: false
 cover: /img/jakob-owens-mQxttWjHFjA-unsplash.jpg
 abbrlink: 20418e0d
 date: 2023-03-20 17:01:00
