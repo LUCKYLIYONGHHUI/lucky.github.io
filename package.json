@@ -42,6 +42,6 @@
     "yarn": "^1.22.22"
   },
   "devDependencies": {
-    "hexo": "^7.3.0"
+    "hexo": "^8.1.1"
   }
 }
