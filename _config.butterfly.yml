@@ -44,8 +44,9 @@ menu:
   #   高数: /gaoshu/ || hide
   #   英语: /English/ || hide
   #   计算机: /computer/ || hide
+  作品: /zuopinji/ || fas fa-folder-open
   资源 || iconfont icon-xinwenzixun:
-    作品集: /zuopinji/ || hide
+    # 作品集: /zuopinji/ || hide
     素材库: /sucaiku/ || hide
     问题区: /wentiqu/ || hide
     案例区: /anliqu/ || hide
